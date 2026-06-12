@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600">
+  <rect width="1200" height="600" fill="#0A1628"/>
+  <!-- Simplified world map dots -->
+  <g fill="#1E3A5F">
+    <!-- North America -->
+    <ellipse cx="180" cy="150" rx="120" ry="80"/>
+    <!-- South America -->
+    <ellipse cx="220" cy="320" rx="60" ry="100"/>
+    <!-- Europe -->
+    <ellipse cx="580" cy="140" rx="80" ry="50"/>
+    <!-- Africa -->
+    <ellipse cx="560" cy="280" rx="70" ry="90"/>
+    <!-- Asia -->
+    <ellipse cx="850" cy="160" rx="150" ry="80"/>
+    <!-- Australia -->
+    <ellipse cx="980" cy="350" rx="70" ry="50"/>
+  </g>
+  <!-- Paris center -->
+  <circle cx="575" cy="135" r="8" fill="#C9A962"/>
+  <text x="575" y="115" text-anchor="middle" font-family="Arial" font-size="14" fill="#C9A962" font-weight="bold">PARIS</text>
+  <!-- Connection lines from Paris to partner cities -->
+  <line x1="575" y1="135" x2="130" y2="140" stroke="#C9A962" stroke-width="1.5" opacity="0.7"/>
+  <line x1="575" y1="135" x2="280" y2="370" stroke="#C9A962" stroke-width="1.5" opacity="0.7"/>
+  <line x1="575" y1="135" x2="570" y2="80" stroke="#C9A962" stroke-width="1.5" opacity="0.7"/>
+  <line x1="575" y1="135" x2="620" y2="120" stroke="#C9A962" stroke-width="1.5" opacity="0.7"/>
+  <line x1="575" y1="135" x2="900" y2="150" stroke="#C9A962" stroke-width="1.5" opacity="0.7"/>
+  <line x1="575" y1="135" x2="1020" y2="360" stroke="#C9A962" stroke-width="1.5" opacity="0.7"/>
+  <line x1="575" y1="135" x2="780" y2="180" stroke="#C9A962" stroke-width="1.5" opacity="0.7"/>
+  <line x1="575" y1="135" x2="480" y2="300" stroke="#C9A962" stroke-width="1.5" opacity="0.7"/>
+  <!-- Partner city dots -->
+  <circle cx="130" cy="140" r="5" fill="#C9A962" opacity="0.8"/><text x="130" y="165" text-anchor="middle" font-family="Arial" font-size="10" fill="#C9A962">New York</text>
+  <circle cx="280" cy="370" r="5" fill="#C9A962" opacity="0.8"/><text x="280" y="395" text-anchor="middle" font-family="Arial" font-size="10" fill="#C9A962">São Paulo</text>
+  <circle cx="570" cy="80" r="5" fill="#C9A962" opacity="0.8"/><text x="570" y="70" text-anchor="middle" font-family="Arial" font-size="10" fill="#C9A962">London</text>
+  <circle cx="620" cy="120" r="5" fill="#C9A962" opacity="0.8"/><text x="620" y="110" text-anchor="middle" font-family="Arial" font-size="10" fill="#C9A962">Berlin</text>
+  <circle cx="900" cy="150" r="5" fill="#C9A962" opacity="0.8"/><text x="900" y="140" text-anchor="middle" font-family="Arial" font-size="10" fill="#C9A962">Tokyo</text>
+  <circle cx="1020" cy="360" r="5" fill="#C9A962" opacity="0.8"/><text x="1020" y="385" text-anchor="middle" font-family="Arial" font-size="10" fill="#C9A962">Sydney</text>
+  <circle cx="780" cy="180" r="5" fill="#C9A962" opacity="0.8"/><text x="780" y="205" text-anchor="middle" font-family="Arial" font-size="10" fill="#C9A962">Mumbai</text>
+  <circle cx="480" cy="300" r="5" fill="#C9A962" opacity="0.8"/><text x="480" y="325" text-anchor="middle" font-family="Arial" font-size="10" fill="#C9A962">Casablanca</text>
+</svg>
