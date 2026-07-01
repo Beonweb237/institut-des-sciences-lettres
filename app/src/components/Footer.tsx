@@ -119,6 +119,15 @@ export default function Footer() {
         >
           <p className="text-xs text-white/40 text-center sm:text-left">
             &copy; 2025 Institut des Sciences & Lettres &mdash; Tous droits r\u00E9serv\u00E9s
+            {' '}&mdash;{' '}
+            <a
+              href="https://www.beonweb.cm/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-gold transition-colors"
+            >
+              Con\u00E7u par Beonweb
+            </a>
           </p>
           <div className="flex items-center gap-4">
             {socialLinks.map((social) => (
