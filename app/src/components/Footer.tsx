@@ -20,13 +20,13 @@ const vieLinks = [
 ];
 
 const resourceLinks = [
-  { label: 'Espace \u00C9tudiant', path: '/espace-etudiant' },
+  { label: 'Espace Étudiant', path: '/espace-etudiant' },
   { label: 'Espace Candidat', path: '/espace-etudiant' },
-  { label: 'Biblioth\u00E8que', path: '/campus' },
+  { label: 'Bibliothèque', path: '/campus' },
   { label: 'Intranet', path: '/espace-etudiant' },
-  { label: 'Mentions l\u00E9gales', path: '#' },
+  { label: 'Mentions légales', path: '#' },
   { label: 'RGPD', path: '#' },
-  { label: 'Accessibilit\u00E9', path: '#' },
+  { label: 'Accessibilité', path: '#' },
   { label: 'Nous contacter', path: '/contact' },
 ];
 
@@ -48,9 +48,9 @@ export default function Footer() {
               <span className="font-heading text-3xl font-semibold text-gold">ISL</span>
               <p className="font-heading text-base mt-1">Institut des Sciences & Lettres</p>
             </div>
-            <p className="text-sm text-white/60">Fond\u00E9e en 1872</p>
+            <p className="text-sm text-white/60">Fondée en 1872</p>
             <address className="text-sm text-white/60 not-italic leading-relaxed">
-              17 rue de l'Universit\u00E9<br />
+              17 rue de l'Université<br />
               75007 Paris, France
             </address>
             <div className="flex items-center gap-3 pt-2">
@@ -118,7 +118,7 @@ export default function Footer() {
           style={{ borderTop: '1px solid rgba(255,255,255,0.1)' }}
         >
           <p className="text-xs text-white/40 text-center sm:text-left">
-            &copy; 2025 Institut des Sciences & Lettres &mdash; Tous droits r\u00E9serv\u00E9s
+            &copy; 2025 Institut des Sciences & Lettres &mdash; Tous droits réservés
           </p>
           <div className="flex items-center gap-4">
             {socialLinks.map((social) => (

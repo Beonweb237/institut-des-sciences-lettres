@@ -7,51 +7,51 @@ import {
 } from 'lucide-react';
 
 const programme = {
-  title: 'Master G\u00e9opolitique & Relations Internationales',
+  title: 'Master Géopolitique & Relations Internationales',
   level: 'MASTER',
   duration: '2 ans',
   campus: 'Paris',
-  intake: '45 \u00e9tudiants',
-  fees: '15 800 \u20ac / an',
-  language: 'Fran\u00e7ais & Anglais',
+  intake: '45 étudiants',
+  fees: '15 800 € / an',
+  language: 'Français & Anglais',
   rncp: 'Niveau 7 RNCP',
   insertion: '94%',
-  salary: '45k\u20ac',
+  salary: '45k€',
 };
 
 const tabs = [
-  { id: 'presentation', label: 'Pr\u00e9sentation' },
+  { id: 'presentation', label: 'Présentation' },
   { id: 'admission', label: 'Admission' },
   { id: 'programme', label: 'Programme' },
-  { id: 'debouches', label: 'D\u00e9bouch\u00e9s' },
+  { id: 'debouches', label: 'Débouchés' },
 ];
 
 const coursesS1 = [
-  { name: 'Th\u00e9ories des Relations Internationales', hours: 36, ects: 5 },
+  { name: 'Théories des Relations Internationales', hours: 36, ects: 5 },
   { name: 'Droit international public', hours: 30, ects: 4 },
-  { name: 'G\u00e9opolitique contemporaine', hours: 36, ects: 5 },
-  { name: 'N\u00e9gociation internationale', hours: 24, ects: 3 },
-  { name: 'M\u00e9thodologie de recherche', hours: 24, ects: 3 },
+  { name: 'Géopolitique contemporaine', hours: 36, ects: 5 },
+  { name: 'Négociation internationale', hours: 24, ects: 3 },
+  { name: 'Méthodologie de recherche', hours: 24, ects: 3 },
 ];
 
 const coursesS2 = [
-  { name: 'Diplomatie et pratiques n\u00e9gociales', hours: 36, ects: 5 },
-  { name: 'Enjeux s\u00e9curitaires mondiaux', hours: 30, ects: 4 },
-  { name: 'Droit des conflits arm\u00e9s', hours: 24, ects: 3 },
-  { name: 'G\u00e9o\u00e9conomie', hours: 30, ects: 4 },
+  { name: 'Diplomatie et pratiques négociales', hours: 36, ects: 5 },
+  { name: 'Enjeux sécuritaires mondiaux', hours: 30, ects: 4 },
+  { name: 'Droit des conflits armés', hours: 24, ects: 3 },
+  { name: 'Géoéconomie', hours: 30, ects: 4 },
   { name: 'Stage professionnel', hours: 120, ects: 6 },
 ];
 
 const careers = [
-  { title: 'Diplomate / Consul', desc: 'Repr\u00e9sentez votre pays \u00e0 l\'\u00e9tranger.' },
-  { title: 'Analyste politique', desc: 'Analysez les dynamiques politiques et risques g\u00e9opolitiques.' },
-  { title: 'Responsable affaires publiques', desc: "D\u00e9fendez les int\u00e9r\u00eats d'organisations aupr\u00e8s des institutions." },
+  { title: 'Diplomate / Consul', desc: 'Représentez votre pays à l\'étranger.' },
+  { title: 'Analyste politique', desc: 'Analysez les dynamiques politiques et risques géopolitiques.' },
+  { title: 'Responsable affaires publiques', desc: "Défendez les intérêts d'organisations auprès des institutions." },
   { title: 'Consultant ONG', desc: 'Coordonnez des projets humanitaires internationaux.' },
 ];
 
 const testimonials = [
   { name: 'Sarah Benali', role: 'Promotion 2022', quote: "Ce Master m'a ouvert les portes du Quai d'Orsay.", image: '/testimonial-sarah.jpg' },
-  { name: 'Antoine Morel', role: 'Promotion 2021', quote: 'Un r\u00e9seau exceptionnel et des enseignants de haut niveau.', image: '/testimonial-antoine.jpg' },
+  { name: 'Antoine Morel', role: 'Promotion 2021', quote: 'Un réseau exceptionnel et des enseignants de haut niveau.', image: '/testimonial-antoine.jpg' },
 ];
 
 const easeOutExpo = [0.16, 1, 0.3, 1] as [number, number, number, number];
@@ -115,35 +115,35 @@ export default function FormationDetail() {
           <div className="grid lg:grid-cols-5 gap-12">
             <div className="lg:col-span-3">
               <div className="gold-divider mb-6" />
-              <h2 className="heading-page mb-8">Pr\u00e9sentation</h2>
+              <h2 className="heading-page mb-8">Présentation</h2>
               <p className="body-large text-gray-600 mb-6">
-                Le Master G\u00e9opolitique & Relations Internationales de l&apos;ISL forme depuis 30 ans les acteurs de la sc\u00e8ne internationale. Anciens \u00e9l\u00e8ves au Quai d&apos;Orsay, \u00e0 l&apos;ONU, dans les grandes ONG et organisations europ\u00e9ennes.
+                Le Master Géopolitique & Relations Internationales de l&apos;ISL forme depuis 30 ans les acteurs de la scène internationale. Anciens élèves au Quai d&apos;Orsay, à l&apos;ONU, dans les grandes ONG et organisations européennes.
               </p>
               <p className="body-large text-gray-600 mb-8">
-                Le programme allie enseignement th\u00e9orique rigoureux et immersion professionnelle : simulations de n\u00e9gociations internationales, stages obligatoires \u00e0 l&apos;\u00e9tranger, s\u00e9minaires avec des diplomates en exercice.
+                Le programme allie enseignement théorique rigoureux et immersion professionnelle : simulations de négociations internationales, stages obligatoires à l&apos;étranger, séminaires avec des diplomates en exercice.
               </p>
-              <h3 className="heading-subsection text-navy mb-4">Objectifs p\u00e9dagogiques</h3>
+              <h3 className="heading-subsection text-navy mb-4">Objectifs pédagogiques</h3>
               <ul className="space-y-3 mb-8">
-                {['Ma\u00eetriser les th\u00e9ories des relations internationales', 'D\u00e9velopper des comp\u00e9tences en n\u00e9gociation interculturelle', 'Acqu\u00e9rir une expertise juridique en droit international', 'Comprendre les enjeux g\u00e9o\u00e9conomiques mondiaux'].map((item) => (
+                {['Maîtriser les théories des relations internationales', 'Développer des compétences en négociation interculturelle', 'Acquérir une expertise juridique en droit international', 'Comprendre les enjeux géoéconomiques mondiaux'].map((item) => (
                   <li key={item} className="flex items-start gap-3 text-gray-600"><CheckCircle size={18} className="text-gold shrink-0 mt-0.5" />{item}</li>
                 ))}
               </ul>
-              <h3 className="heading-subsection text-navy mb-4">Comp\u00e9tences acquises</h3>
+              <h3 className="heading-subsection text-navy mb-4">Compétences acquises</h3>
               <div className="flex flex-wrap gap-2">
-                {['Analyse g\u00e9opolitique', 'N\u00e9gociation', 'Droit des trait\u00e9s', 'Leadership diplomatique', 'Anglais C1+'].map((skill) => (
+                {['Analyse géopolitique', 'Négociation', 'Droit des traités', 'Leadership diplomatique', 'Anglais C1+'].map((skill) => (
                   <span key={skill} className="px-3 py-1.5 text-sm font-medium text-navy-light bg-cream border border-gray-200 rounded-sm">{skill}</span>
                 ))}
               </div>
             </div>
             <div className="lg:col-span-2">
               <div className="bg-cream p-8 rounded border-l-[3px] border-gold">
-                <h3 className="font-heading font-medium text-xl text-navy-light mb-6">Chiffres cl\u00e9s</h3>
+                <h3 className="font-heading font-medium text-xl text-navy-light mb-6">Chiffres clés</h3>
                 <div className="space-y-6">
-                  <div><span className="stat-number text-2xl">{programme.insertion}</span><p className="text-sm text-gray-600">Taux d&apos;insertion \u00e0 6 mois</p></div>
+                  <div><span className="stat-number text-2xl">{programme.insertion}</span><p className="text-sm text-gray-600">Taux d&apos;insertion à 6 mois</p></div>
                   <div className="gold-divider" />
-                  <div><span className="stat-number text-2xl">{programme.salary}</span><p className="text-sm text-gray-600">Salaire m\u00e9dian premier emploi</p></div>
+                  <div><span className="stat-number text-2xl">{programme.salary}</span><p className="text-sm text-gray-600">Salaire médian premier emploi</p></div>
                   <div className="gold-divider" />
-                  <div><span className="stat-number text-2xl">4.6/5</span><p className="text-sm text-gray-600">Satisfaction \u00e9tudiants</p></div>
+                  <div><span className="stat-number text-2xl">4.6/5</span><p className="text-sm text-gray-600">Satisfaction étudiants</p></div>
                 </div>
               </div>
             </div>
@@ -158,10 +158,10 @@ export default function FormationDetail() {
           <h2 className="heading-page mb-12">Conditions d&apos;admission</h2>
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div className="bg-white p-8 rounded shadow-isl">
-              <h3 className="heading-subsection text-navy mb-4">Pr\u00e9requis</h3>
+              <h3 className="heading-subsection text-navy mb-4">Prérequis</h3>
               <ul className="space-y-3 text-gray-600">
-                <li className="flex items-start gap-2"><CheckCircle size={16} className="text-gold shrink-0 mt-1" />Licence en droit, science politique, histoire ou \u00e9quivalent</li>
-                <li className="flex items-start gap-2"><CheckCircle size={16} className="text-gold shrink-0 mt-1" />Moyenne g\u00e9n\u00e9rale sup\u00e9rieure \u00e0 14/20</li>
+                <li className="flex items-start gap-2"><CheckCircle size={16} className="text-gold shrink-0 mt-1" />Licence en droit, science politique, histoire ou équivalent</li>
+                <li className="flex items-start gap-2"><CheckCircle size={16} className="text-gold shrink-0 mt-1" />Moyenne générale supérieure à 14/20</li>
                 <li className="flex items-start gap-2"><CheckCircle size={16} className="text-gold shrink-0 mt-1" />Niveau d&apos;anglais B2 minimum (TOEFL 90+)</li>
                 <li className="flex items-start gap-2"><CheckCircle size={16} className="text-gold shrink-0 mt-1" />Lettre de motivation + 2 lettres de recommandation</li>
               </ul>
@@ -169,11 +169,11 @@ export default function FormationDetail() {
             <div className="bg-white p-8 rounded shadow-isl">
               <h3 className="heading-subsection text-navy mb-4">Frais et bourses</h3>
               <p className="text-3xl font-heading font-bold text-gold mb-2">{programme.fees}</p>
-              <p className="text-sm text-gray-600 mb-4">Frais de scolarit\u00e9 annuels</p>
+              <p className="text-sm text-gray-600 mb-4">Frais de scolarité annuels</p>
               <div className="space-y-2 text-sm text-gray-600">
-                <p>&bull; Bourse Excellence ISL : jusqu&apos;\u00e0 10 000 &euro;/an</p>
+                <p>&bull; Bourse Excellence ISL : jusqu&apos;à 10 000 &euro;/an</p>
                 <p>&bull; Bourse sociale CROUS : selon QEU</p>
-                <p>&bull; Alternance possible d\u00e8s la 2\u00e8me ann\u00e9e</p>
+                <p>&bull; Alternance possible dès la 2ème année</p>
               </div>
             </div>
           </div>
@@ -181,9 +181,9 @@ export default function FormationDetail() {
             <h3 className="heading-subsection text-white mb-6">Calendrier des admissions</h3>
             <div className="grid sm:grid-cols-3 gap-6">
               {[
-                { date: '15 Nov 2024', title: 'Ouverture des candidatures', desc: 'D\u00e9p\u00f4t en ligne sur le portail ISL' },
-                { date: '15 F\u00e9v 2025', title: 'Date limite', desc: 'Cl\u00f4ture des d\u00e9p\u00f4ts pour les Master 1' },
-                { date: '30 Avr 2025', title: 'R\u00e9sultats', desc: 'Notification des d\u00e9cisions d&apos;admission' },
+                { date: '15 Nov 2024', title: 'Ouverture des candidatures', desc: 'Dépôt en ligne sur le portail ISL' },
+                { date: '15 Fév 2025', title: 'Date limite', desc: 'Clôture des dépôts pour les Master 1' },
+                { date: '30 Avr 2025', title: 'Résultats', desc: 'Notification des décisions d&apos;admission' },
               ].map((step) => (
                 <div key={step.title} className="border-l-2 border-gold pl-4">
                   <p className="text-gold text-sm font-semibold mb-1">{step.date}</p>
@@ -228,7 +228,7 @@ export default function FormationDetail() {
             </div>
           </div>
           <div className="mt-12 bg-navy/5 p-6 rounded">
-            <p className="text-sm text-gray-600"><strong>Semestres 3 et 4</strong> : Sp\u00e9cialisation (g\u00e9opolitique de l&apos;espace, s\u00e9curit\u00e9 internationale, ou g\u00e9o\u00e9conomie), stage de 6 mois \u00e0 l&apos;\u00e9tranger et m\u00e9moire de recherche.</p>
+            <p className="text-sm text-gray-600"><strong>Semestres 3 et 4</strong> : Spécialisation (géopolitique de l&apos;espace, sécurité internationale, ou géoéconomie), stage de 6 mois à l&apos;étranger et mémoire de recherche.</p>
           </div>
         </div>
       </section>
@@ -237,7 +237,7 @@ export default function FormationDetail() {
       <section id="debouches" className="section-padding bg-navy">
         <div className="container-isl">
           <div className="gold-divider mb-6" />
-          <h2 className="heading-page text-white mb-12">D\u00e9bouch\u00e9s professionnels</h2>
+          <h2 className="heading-page text-white mb-12">Débouchés professionnels</h2>
           <div className="grid sm:grid-cols-3 gap-6 mb-12">
             <div className="bg-white/5 border border-white/10 p-8 rounded text-center">
               <TrendingUp size={28} className="text-gold mx-auto mb-3" />

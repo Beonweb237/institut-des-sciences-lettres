@@ -25,7 +25,7 @@ const navLinks = [
     ],
   },
   { label: 'International', path: '/international' },
-  { label: '\u00C0 Propos', path: '/a-propos' },
+  { label: 'À Propos', path: '/a-propos' },
 ];
 
 export default function Navbar() {
